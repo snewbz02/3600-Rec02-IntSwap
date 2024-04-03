@@ -9,3 +9,13 @@ operator evaluates each bit of the result to 1.
 
 Class: 3600.004-208
 */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int *int_ptr;
+    int_ptr = (int *)malloc(2 * sizeof(int)); // Allocate memory for two integers
+    
+    return 0;
+}
