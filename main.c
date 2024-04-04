@@ -16,6 +16,11 @@ Class: 3600.004-208
 int main() {
     int *int_ptr;
     int_ptr = (int *)malloc(2 * sizeof(int)); // Allocate memory for two integers
+
+    if (int_ptr == NULL) {
+        printf("Memory allocation failed. Exiting program.\n");
+        return 1;
+    }
     
     return 0;
 }
