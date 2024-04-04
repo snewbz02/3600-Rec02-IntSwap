@@ -21,6 +21,10 @@ int main() {
         printf("Memory allocation failed. Exiting program.\n");
         return 1;
     }
+
+    // Prompt the user to enter the first integer
+    printf("Enter the first integer: ");
+    scanf("%d", &int_ptr[0]);
     
     return 0;
 }
