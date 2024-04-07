@@ -25,6 +25,10 @@ int main() {
     // Prompt the user to enter the first integer
     printf("Enter the first integer: ");
     scanf("%d", &int_ptr[0]);
+
+    // Prompt the user to enter the second integer
+    printf("Enter the second integer: ");
+    scanf("%d", &int_ptr[1]);
     
     return 0;
 }
