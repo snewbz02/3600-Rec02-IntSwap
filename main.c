@@ -33,6 +33,10 @@ int main() {
     // Print the original values
     printf("Original values: First integer = %d, Second integer = %d\n", int_ptr[0], int_ptr[1]);
 
+    // Swap the values using bitwise XOR
+    int_ptr[0] ^= int_ptr[1];
+    int_ptr[1] ^= int_ptr[0];
+    int_ptr[0] ^= int_ptr[1];
     
     return 0;
 }
