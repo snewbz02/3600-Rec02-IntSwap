@@ -37,6 +37,10 @@ int main() {
     int_ptr[0] ^= int_ptr[1];
     int_ptr[1] ^= int_ptr[0];
     int_ptr[0] ^= int_ptr[1];
+
+    // Print the swapped values
+    printf("Swapped values: First integer = %d, Second integer = %d\n", int_ptr[0], int_ptr[1]);
+
     
     return 0;
 }
